@@ -53,9 +53,7 @@ The drawback is the one identified in review: DM Sans is now widely used and its
 
 Use **Hanken Grotesk** for body copy, navigation, labels and forms while retaining Manrope for headings. It remains clean and highly readable, but its more human proportions and slightly warmer shapes should better support a young-person/coaching brand. It is distinctive without becoming informal or distracting.
 
-**Decision:** this pairing is now implemented in the site stylesheet, using Arial and the generic sans-serif family as fallbacks.
-
-As a final visual check, compare the homepage and a long legal page at desktop and mobile widths. Body-font changes affect line wrapping, section height and navigation fit, so those views should be checked before launch.
+Before changing globally, compare one homepage and one long legal page at 16px, 18px and mobile widths. Body-font changes affect line wrapping, section height and navigation fit, so this should be a deliberate visual decision rather than bundled into the launch fixes.
 
 ### Alternatives
 
