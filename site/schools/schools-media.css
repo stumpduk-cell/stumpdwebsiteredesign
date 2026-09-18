@@ -1,0 +1,11 @@
+.schools-session-photo {
+  margin: 0 0 clamp(2rem, 5vw, 4rem);
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.schools-session-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
