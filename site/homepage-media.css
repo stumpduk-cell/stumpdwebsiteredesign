@@ -1,0 +1,26 @@
+.intro-photo {
+  grid-column: 1 / -1;
+  margin: clamp(2rem, 5vw, 4.5rem) 0 0;
+  overflow: hidden;
+  background: var(--sand);
+}
+
+.intro-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 850px) {
+  .intro-photo {
+    grid-column: 1;
+    margin-top: 1.5rem;
+  }
+
+  .intro-photo img {
+    aspect-ratio: 4 / 3;
+  }
+}
