@@ -24,14 +24,3 @@ if (form) {
     status.textContent = 'Your email app should now open with your enquiry ready to send.';
   });
 }
-
-// The Spark card artwork is portrait. Correct older card-page markup that
-// declared it as landscape and ensure the complete artwork remains visible.
-document.querySelectorAll('.spark-card-grid img').forEach(card => {
-  card.width = 1024;
-  card.height = 1536;
-  card.style.width = '100%';
-  card.style.height = 'auto';
-  card.style.maxHeight = 'none';
-  card.style.objectFit = 'contain';
-});
