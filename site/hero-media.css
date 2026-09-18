@@ -1,0 +1,16 @@
+.hero-art.hero-art {
+  isolation: isolate;
+  background:
+    linear-gradient(180deg, rgba(16, 24, 37, 0.08) 30%, rgba(16, 24, 37, 0.9) 100%),
+    url('/assets/IMG-20260918-WA0031.jpg') 58% center / cover no-repeat;
+}
+
+.hero-art.hero-art .ball,
+.hero-art.hero-art .crease {
+  display: none;
+}
+
+.hero-art.hero-art strong {
+  z-index: 1;
+  text-shadow: 0 2px 24px rgba(16, 24, 37, 0.45);
+}
