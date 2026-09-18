@@ -1,0 +1,46 @@
+.spark-tools {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid currentColor;
+}
+
+.spark-tools h4 {
+  margin: 0 0 0.5rem;
+  font: 700 clamp(1.4rem, 2.5vw, 2rem)/1.1 Manrope, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.spark-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+  margin-top: 1.5rem;
+}
+
+.spark-card-grid figure {
+  min-width: 0;
+  margin: 0;
+  background: var(--white);
+  border: 1px solid #d7d4cb;
+}
+
+/* Keep the accessible explanations, but remove the problematic artwork. */
+.spark-card-grid img {
+  display: none;
+}
+
+.spark-card-grid figcaption {
+  padding: 1rem;
+  color: var(--ink);
+}
+
+.spark-card-grid figcaption strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 700px) {
+  .spark-card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
