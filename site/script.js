@@ -24,3 +24,32 @@ if (form) {
     status.textContent = 'Your email app should now open with your enquiry ready to send.';
   });
 }
+
+const teamMembers = {
+  'Rob Osman': { src: '/assets/team/rob-osman.png', width: 1024, height: 1536 },
+  'Jack Henderson': { src: '/assets/team/jack-henderson.png', width: 1024, height: 1024 },
+};
+const teamCards = document.querySelectorAll('.team-grid .person');
+if (teamCards.length) {
+  const teamStyles = document.createElement('link');
+  teamStyles.rel = 'stylesheet';
+  teamStyles.href = '/team/team-images.css';
+  document.head.append(teamStyles);
+
+  teamCards.forEach(card => {
+    const name = card.querySelector('h2')?.textContent.trim();
+    const member = teamMembers[name];
+    const currentVisual = card.querySelector('.avatar, .team-photo');
+    if (!member || !currentVisual) return;
+
+    const photo = document.createElement('img');
+    photo.className = 'team-photo';
+    photo.src = member.src;
+    photo.alt = name;
+    photo.width = member.width;
+    photo.height = member.height;
+    photo.loading = 'lazy';
+    photo.decoding = 'async';
+    currentVisual.replaceWith(photo);
+  });
+}
