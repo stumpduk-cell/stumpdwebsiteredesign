@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Stump’d</title>
+  <desc id="desc">The Stump’d shield, combining a brain, cricket bat and lightning bolt, with the words Think Well, Play Better.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M320 28 548 96v259c0 98-44 159-111 199L320 622 203 554c-67-40-111-101-111-199V96z" stroke="#d28a2d" stroke-width="16"/>
+    <g stroke="#aa1745" stroke-width="18">
+      <path d="M314 112c-49-19-91 19-91 67-43 2-74 34-71 73 1 18 10 33 25 42-25 16-35 46-29 75 4 19 14 34 29 46-2 51 25 89 65 98 18 36 90 57 103 10V139c0-16-12-24-31-27z"/>
+      <path d="M223 179c35 0 56 23 52 53M177 294c21-3 32 10 47 10 25 0 39 19 39 37M177 415c33 3 52-18 47-43-3-18 6-35 23-43M242 513c-7-31 12-64 44-66M345 388c-42 1-76-13-97-39M284 447c12 3 23 13 22 31"/>
+    </g>
+    <path d="m419 129 59 20-82 218 79-87-55 142 67-30-150 196 50-158-52 68 60-185-36-12 58-142-13-5z" fill="#d28a2d" stroke="#d28a2d" stroke-width="8"/>
+    <path d="m320 547 8 19 21 2-16 14 5 21-18-11-18 11 5-21-16-14 21-2z" fill="#eee1c5"/>
+  </g>
+  <g fill="#eee1c5" font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="128" y="164" font-size="34" letter-spacing="3">EST.</text>
+    <text x="428" y="515" font-size="34">2025</text>
+    <text x="56" y="705" font-family="Georgia, 'Times New Roman', serif" font-size="104" letter-spacing="-5">STUMP<tspan fill="#d28a2d">’</tspan>D</text>
+    <text x="552" y="654" font-size="23">TM</text>
+  </g>
+  <text x="320" y="749" fill="#d28a2d" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" letter-spacing="3" text-anchor="middle">THINK WELL, PLAY BETTER</text>
+</svg>
