@@ -1,0 +1,4 @@
+Stump’d independent website
+Release: 2026-09-18
+Build: complete-public-site
+Source: main rebuild

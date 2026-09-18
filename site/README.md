@@ -1,13 +1,5 @@
-# Stump’d preview site
+# Stump’d public website
 
-Text-only static preview for Stump’d. The official logo and authentic photography are locked assets; labelled HTML/CSS placeholders are used until those assets are supplied.
+This directory is the complete static deployment artifact. Cloudflare Workers serves it using the repository-level `wrangler.toml` configuration.
 
-## Cloudflare Pages
-
-- **Framework preset:** None
-- **Build command:** leave blank
-- **Output directory:** `site`
-
-No build step or dependencies are required. For local preview, run `python3 -m http.server 8000 --directory site` from the repository root.
-
-The preview intentionally uses `noindex,nofollow` in page metadata and response headers. Replace placeholder policy links and review the Content Security Policy before adding production services or assets.
+The site uses extensionless directory routes, contains no third-party scheduling or account routes, and provides a manual email enquiry journey from the Contact page.
